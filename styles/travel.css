@@ -101,6 +101,42 @@ input, #time, #type, .btn-primary{
     font-weight: 700;
 }
 
+/* main section star */
+.popular-tours .section-content{
+    margin-top: 70px;
+    height: 420px;
+}
+
+.section-content .tours-plan{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.section-content .tours-discription{
+    width: 90%;
+    height: 30px;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.section-content .tour-list{
+    font-size: 13px;
+    font-weight: 400;
+    width: 90%;
+    height: auto;
+    margin: 20px 19px;
+}
+.section-content .tour-list li{
+    line-height: 30px;
+}
+
+.section-picture img{
+    margin-top: 70px;
+    width: 520px;
+    height: 420px;
+}
+
 
 
 /* responsive for mobile */
@@ -143,7 +179,22 @@ input, #time, #type, .btn-primary{
         width: 350px;
         height: 100px;
         margin: 20px 0 0 0;
-        }  
+        } 
+        
+    .section-content{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .section-content{
+        padding-left: 2.5rem;
+    }
+
+    .section-picture{
+        width: auto;
+        margin-top: 2.5rem;
+        padding-left: 2.5rem;
+    }
     }
    
 
