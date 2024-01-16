@@ -5,50 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Budget</title>
     <link rel="stylesheet" href="styles/travel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <!-- header start -->
-    <header class="container">
-        <!-- nav start here -->
-        <nav class="navigat">
-            <div class="nav-logo">
-                <img src="./Images/Group 40071 (2).png" alt="">
-                <p>Travel <span class="special-text">Budget</span></p>
-            </div>
-            <div class="nav-content">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Packages</a></li>
-                    <li><a href="">Testimonial</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- nav end here -->
-        <!-- banner section start here -->
-        <div class="banner-content">
-             <h2 class="ban-title">Explore Your Travel</h2>
-             <p class="ban-discription">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
-
-            <div class="banner-option">
-                <input type="text" name="" placeholder="Where go">
-                <select name="When" id="option">
-                   <option value="When">When</option>
-                </select>
-                <select name="type" id="option">
-                   <option value="Type">Select Type</option>
-                </select>
-            </div>
+    <nav class="container">
+        <div class="nav-images">
+            <img src="./Images/Group 40071 (2).png" alt="">
+            <h3 class="name">Travel <span>Budget</span></h3>
         </div>
-        <!--  banner section end here -->
+        <ul class="nav-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">Packages</a></li>
+            <li><a href="">Testimonial</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="banner-image container">
+            <div class="banner-content">
+                <h2 id="banner-text">Explore Your Travel</h2>
+                <p id="banner-para">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.
+                </p>
+                <div class="banner-form">
+                    <form>
+                        <input type="text" name="Place" placeholder="Where go">
+                        <select name="" id="time">
+                            <option value="When">When</option>
+                        </select>
+                        <select name="" id="type">
+                            <option value="type">Type</option>
+                        </select>
+                        <button class="btn-primary"><i class="fa-solid fa-magnifying-glass"></i>Find now</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
     </header>
-    <!-- header end -->
-    <main>
-
-    </main>
-    <footer>
-
-    </footer>
 </body>
 </html>
