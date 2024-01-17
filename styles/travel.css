@@ -145,7 +145,7 @@ input, #time, #type, .btn-primary{
 }
 .dest-hed .dest-1{
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
     color: #131318;
     font-size: 30px;
     font-weight: 800;
@@ -159,6 +159,29 @@ input, #time, #type, .btn-primary{
     font-weight: 400;
     line-height: 15px;
 }
+.country-picture {
+    width: 100%;
+}
+
+.flex-1{
+    margin-bottom: 18px;
+}
+
+.flex-1,.flex-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.flex-3{
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
 
 
 
