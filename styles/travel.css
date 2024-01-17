@@ -73,6 +73,7 @@
     font-size: 14px;
     font-weight: 400;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 
@@ -90,6 +91,7 @@ input, #time, #type, .btn-primary{
     border-radius: 8px;
     padding: 5px;
     border: none;
+    
 }
 
 .btn-primary{
@@ -135,6 +137,27 @@ input, #time, #type, .btn-primary{
     margin-top: 70px;
     width: 520px;
     height: 420px;
+}
+.dest-hed{
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+.dest-hed .dest-1{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #131318;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.dest-hed .dest-para{
+    width: 100%;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
 }
 
 
